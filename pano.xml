@@ -47,7 +47,8 @@
       <label textcolor="0x000000" bordercolor="0x000000" textalpha="1" wordwrap="1" enabled="1" background="1" width="180" borderradius="1" height="20" backgroundcolor="0xffffff" borderalpha="1" backgroundalpha="1" border="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
       <hotspot target="$fwd" title="Bedroom_2" tilt="0" description="" url="{node6}" distance="2.37954" pan="154.778" id="Point01" skinid="ht_node"/>
-      <hotspot target="$fwd" title="Kitchen" tilt="0" description="" url="{node11}" distance="2.73111" pan="184.319" id="Point02" skinid="ht_node"/>
+      <hotspot fov="10" target="$fwd" title="Kitchen" tilt="1.66" description="" use3D="0" url="{node11}" customimage="media/arrow.png" distance="2.73111" customimagewidth="129" distance3D="737.238" customimageheight="100" pan="122.11" id="Point02" skinid="ht_node"/>
+      <hotspot target="$fwd" title="Bathroom_2" tilt="0" description="" url="{node7}" distance="4.37561" pan="140.205" id="Point03" skinid="ht_node"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" enabled="1" zoomin="0" softedge="0" zoomout="0" zoomspeed="2" zoomfov="20" zoomoutpause="1" blendtime="1" blendcolor="0x000000"/>
